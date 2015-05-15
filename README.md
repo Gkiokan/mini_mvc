@@ -50,9 +50,10 @@ due the time saving in creating just a Controller for the View.
 So you go in the template Folder and create your desired File.
 
 You create the file like the page link you wanna have. Example:
+<pre>
   URI:   domain.com/help-tutorial
   FILE:  template/help-tutorial.php
-
+</pre>
 
 ## Basic Skeleton of your Template
 Well, as you have kinda always the same header, footer and also navigation,
