@@ -11,7 +11,7 @@ logical (if(x==y)) Question if needen.
 ## Structure
 You have an basic Structure of the Files which should be basically protected by an .htaccess.
 <code>
-  - root
+   - root
     |- assets/              // Here goes all your Assets like CSS, JS, SASS, images, icons, etc.
         |- css/             // Your basic CSS Folder
         |- js/              // Your basic JS  Folder
@@ -24,14 +24,16 @@ You have an basic Structure of the Files which should be basically protected by 
         |- session.php      // Session Class for handling Session Data
         |- token.php        // Token Class for basic hash generating
 
+
     |- core/                // Core include files
         |- config.php       // Some Main Configurations you may take
         |- init.php         // The Init File which will be included for the index.php
         |- function.php     // Basic functions in global scope
-
+        
     |- template/            // Here goes your Page Content
         |- 404.php          // 404 Error Page
         |- home.php         // Home Page, Startpage and Fallback on first Page.
+
 
     |- view/                // Here you go for your basic Header, Footer and Navigation files.
         |- header.php       // Contents the Header Part
