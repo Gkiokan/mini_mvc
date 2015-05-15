@@ -61,10 +61,10 @@ it's very practicable to include them with an little function in your Template.
 In the View Folder you have tree basic files. footer.php, header.php and navigation.php.
 Theese files will be includen on each you trigger the functions get_header and get_footer.
 It's also Important that you can modify them with an Array of Data as shown here.
-<code>
+<pre>
   <?php get_header(); ?>
   ...
   ... Your Content goes here
   ...
   <?php get_footer(); ?>
-</code>
+</pre>
