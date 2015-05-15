@@ -3,15 +3,14 @@
 This is a little PHP MVC System without Object Oriented Programming.
 It will suite well for quick page Development with less funktionality.
 
-
 You are able to build your Pages in a Template file, which will be included
 by his name and you can also serve a functionality on the same page with an
 logical (if(x==y)) Question if needen.
 
 
-Structure
+## Structure
 You have an basic Structure of the Files which should be basically protected by an .htaccess.
-
+<code>
   - root
     |- assets/              // Here goes all your Assets like CSS, JS, SASS, images, icons, etc.
         |- css/             // Your basic CSS Folder
@@ -41,10 +40,9 @@ You have an basic Structure of the Files which should be basically protected by 
 
   .htaccess                 // Provides nice URI links
   index.php                 // Initialises the App.
-    
+</code>
 
-
-How to use it?
+## How to use it?
 This MVC is using the Model View Controller prinzip by a part of it.
 The Controller is actually just an implement in the View
 due the time saving in creating just a Controller for the View.
@@ -55,16 +53,17 @@ You create the file like the page link you wanna have. Example:
   FILE:  template/help-tutorial.php
 
 
-Basic Skeleton of your Template
+## Basic Skeleton of your Template
 Well, as you have kinda always the same header, footer and also navigation,
 it's very practicable to include them with an little function in your Template.
 
 In the View Folder you have tree basic files. footer.php, header.php and navigation.php.
 Theese files will be includen on each you trigger the functions get_header and get_footer.
 It's also Important that you can modify them with an Array of Data as shown here.
-
+<code>
   <?php get_header(); ?>
   ...
   ... Your Content goes here
   ...
   <?php get_footer(); ?>
+</code>
