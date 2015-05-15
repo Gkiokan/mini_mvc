@@ -1,0 +1,11 @@
+Options -MultiViews
+RewriteEngine on
+
+#RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)$ index.php?uri=$1 [QSA]
+
+Header always set Cache-Control "no-store, no-cache, must-revalidate" env=nocache
+Header always set Cache-Control "max-age=86400" env=longexpiry

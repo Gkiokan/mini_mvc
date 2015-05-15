@@ -1,0 +1,4 @@
+
+
+/* Errors */
+p[data-error='true'] { color: red; text-align; center; padding:10px; border:1px solid red; }
