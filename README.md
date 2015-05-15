@@ -10,8 +10,8 @@ logical (if(x==y)) Question if needen.
 
 ## Structure
 You have an basic Structure of the Files which should be basically protected by an .htaccess.
-<code>
-   - root
+<pre>
+   root
     |- assets/              // Here goes all your Assets like CSS, JS, SASS, images, icons, etc.
         |- css/             // Your basic CSS Folder
         |- js/              // Your basic JS  Folder
@@ -23,7 +23,6 @@ You have an basic Structure of the Files which should be basically protected by 
         |- hash.php         // Hash Class for handling hashes
         |- session.php      // Session Class for handling Session Data
         |- token.php        // Token Class for basic hash generating
-
 
     |- core/                // Core include files
         |- config.php       // Some Main Configurations you may take
@@ -42,7 +41,7 @@ You have an basic Structure of the Files which should be basically protected by 
 
   .htaccess                 // Provides nice URI links
   index.php                 // Initialises the App.
-</code>
+</pre>
 
 ## How to use it?
 This MVC is using the Model View Controller prinzip by a part of it.
