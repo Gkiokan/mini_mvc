@@ -21,7 +21,7 @@
           </div>
           <div class='col-xs-4'>
             <p class='text text-success xbg-success'>
-                This is &copy; by Gkiokan 2015 <?php if($d = date('Y', time())>2015) echo "- ".date('Y', time()); ?><br>
+                This is &copy; by Gkiokan 2015 <?php if(date('Y', time()) > 2015) echo " - " . date('Y', time()); ?><br>
                 Under the GPL II License incomming.<br>
                 -//-<br>
             </p>
