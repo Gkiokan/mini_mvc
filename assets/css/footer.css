@@ -1,0 +1,11 @@
+/*
+ *
+ * Footer
+ */
+
+.footer { background: darkred; min-height: 80px; padding: 20px 0px; color: #fff; font-weight: 300; box-shadow:0px 0px 10px maroon; }
+
+
+.footer_sitemap { margin: 0px; padding: 0px; list-style: none; }
+.footer_sitemap li { display: block; }
+.footer_sitemap li a { color: #fff; text-decoration: none; }

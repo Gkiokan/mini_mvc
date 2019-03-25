@@ -1,0 +1,33 @@
+/*
+ *
+ *
+ */
+
+    /*
+     * All CSS
+     */
+    .entry { height: 150px; border: 1px solid #eee; margin-bottom: 15px; padding: 0px 10px; overflow: hidden; }
+    .entry .week,
+    .entry .day,
+    .entry .year,
+    .entry .options
+    { display: inline-block; padding-right:5px; margin-right:5px; font-weight:300; font-size:14px; border-right:1px solid #666; }
+
+    .entry.entry_first { background: darkkhaki; }
+    .entry .linkTo { margin-right:5px; }
+
+    .entry .title h4 { font-weight:bold }
+
+    /*
+     * myBook CSS
+     */ 
+    .berichtsheft-group .panel { border-radius:0px; }
+    .berichtsheft-group .panel-body { padding: 10px; }        
+    
+    .my_entry { position: relative; min-height: 150px; border: 1px solid #eee; padding: 0px; overflow: hidden; float: none; vertical-align: top; display: inline-block; }
+    .my_entry.entryView_table { width: 100% !important; min-height: 35px !important; height: auto !important; display: inline-block; }
+    .my_entry.open { width: 100%; background: darkgrey; margin: 0px auto; }
+    
+    .my_entry .options { position: absolute; top: 5px; right: 5px; color: lightgray; z-index: 10; }
+    .my_entry .optoins .btn:hover { color: gray; }
+    

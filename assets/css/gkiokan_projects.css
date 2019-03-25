@@ -1,0 +1,18 @@
+/*
+ * Project: Gkiokan.NET
+ * Author: Gkiokan Sali
+ * URI: htpt://www.gkiokan.net/
+ *
+ */
+
+   .project_access {}
+   .project_access > div { margin-bottom:30px; }
+   .project:hover { box-shadow:0px 0px 3px; }
+
+   .project_header { height:200px; }
+   .project_header .title { background:rgba(0,0,0,.3); color:snow; padding:10px 5px;}
+   .project_header .title h4 { font-family: "Open Sans"; }
+
+   .project_footer { font-size:12px; text-align:center; }
+   .project_footer .project_status { }
+   .project_footer .project_option { }

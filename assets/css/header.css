@@ -1,0 +1,26 @@
+/*
+ *
+ *
+ */
+
+/* Header */
+.header {
+    padding: 150px 0px 80px 0px; background-size:cover;
+    background: url('../image/wallpaper/header_bg_hexagon_red_proto_1.jpg') center center no-repeat;
+    /*background: url('../image/wallpaper/black_octa_3d.jpg') center center no-repeat;*/
+    /*background: url('../image/wallpaper/color_matrix.jpg') center center no-repeat;*/
+    box-shadow: 0px 0px 20px maroon;
+    border-bottom: 1px solid #730101;
+    position: relative;
+    z-index: 100;
+}
+.header { font-size: 95px; font-family: "Black Ops One"; text-shadow: 6px 6px maroon; }
+
+
+@media(max-width:768px){
+    .header { font-size:50px; }
+}
+
+@media(max-width:480px){
+    .header { font-size:40px; }
+}

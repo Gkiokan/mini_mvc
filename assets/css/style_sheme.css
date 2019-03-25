@@ -1,0 +1,71 @@
+    /* * * * * * * * * * * * *
+    * Project: Gkiokan NET v5.1 - Simple Styling Promote
+    * Author: Gkiokan Sali
+    * URL: www.gkiokan.net
+    * Date: 09.09.2014
+    * * * * * * * * * * * * */
+
+
+    /* Black Sheme */
+    .black_sheme {
+        background: #222;
+        color: #eee;
+    }
+
+    .black_sheme input,
+    .black_sheme textarea,
+    .black_sheme select {
+        background: #222;
+        border: 0px;
+        border-bottom: 1px solid #eee;
+        border-radius:2px;
+        color: #eee;
+    }
+
+    .black_sheme .footer { color: #fff; }
+
+
+
+    /* Content Sheme | light_content */
+    .light_content .main > .container {
+        overflow: hidden;
+        background: #fff;
+        color: #222;
+        box-shadow: 0px 0px 20px moccasin;
+        border: 4px solid moccasin;
+    }
+
+
+    /* Content Sheme | darkred_content */
+    .darkred_content .main > .container {
+        overflow: hidden;
+        background: #fff;
+        color: #222;
+        box-shadow: 0px 0px 20px darkred;
+        border: 4px solid darkred;
+    }
+    /* Set Input all same with black_sheme & darkred_content*/
+    .black_sheme.darkred_content input,
+    .black_sheme.darkred_content textarea,
+    .black_sheme.darkred_content select {
+        background: transparent;
+        border: 1px solid #ccc;
+        color: #222;
+    }
+    
+    /* Submit Button */
+    .darkred_content input[type=submit]{
+        background: palegreen !important;
+        width: 100%; height: 70px;
+        -webkit-transition: all .5s; -moz-transition: all .5s; -ms-transition: all .5s; -o-transition: all .5s; transition: all .5s;
+    }
+    .darkred_content input[type=submit]:hover{
+        background: seagreen !important;
+        width: 100%; height: 70px; color:#fff !important;
+    }
+
+    
+    
+    
+    
+    

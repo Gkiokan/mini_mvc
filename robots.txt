@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /download.php
+Disallow: /gallery.php
+Disallow: /svr/
+Disallow: /forum.php

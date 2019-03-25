@@ -1,0 +1,22 @@
+/*
+ * Project: Gkiokan.NET
+ * Author: Gkiokan Sali
+ * URI: htpt://www.gkiokan.net/
+ *
+ */
+
+.parallex {
+    content: '';
+    position: fixed;
+    top:0px; left: 0px; right:0px; bottom: 0px;
+    z-index: -1;
+    
+    background-size:110% 130%;
+    background-position: 50% 0px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+}
+
+.parallex_01 {
+    background-image: url(../image/wallpaper/polygon_black_comp.jpg);
+}

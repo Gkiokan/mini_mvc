@@ -1,0 +1,44 @@
+/*
+ * Projekt: GkiokanNET V5.1 Simple
+ * Author: Gkiokan Sali
+ * URL: www.gkiokan.net
+ */
+
+html, body { height:100%; }
+
+body {
+    font-family: 'Open Sans', 'Exo', sans-serif;
+    /*  overflow-x: hidden; */
+    font-size:15px;
+}
+h1, h2, h3, h4, h5, h6 { font-family: "Poiret One"; }
+a, a:hover, a:focus, a:visited { text-decoration: none; }
+
+
+.animate { -webkit-transition: all .5s; -moz-transition: all .5s; -ms-transition: all .5s; -o-transition: all .5s; transition: all .5s; }
+.animate:hover { z-index: 100; /* transform:scale(1.2); transform:rotateZ(5deg); */ }
+
+
+/* Main Section */
+.main { padding-top:50px; padding-bottom:100px; }
+.container { position: relative; }
+.main > .container { overflow:hidden; min-height: 500px; padding-bottom:50px; }
+
+
+/* Article */
+.article_header { }
+.article_text, #news article { text-align:justify; margin-bottom:50px; }
+
+
+/* code layouts*/
+code.onlist {  }
+code.progress { background: #FDF5C8; color: #C78025; }
+code.success { background: #CAFDC8; color: #3AAD24; }
+
+/* ToDo List */
+#todo { font-size:14px; }
+
+
+/* Submit fullsize forms */
+.btn-group-fullsize { display:block; }
+.btn-group-fullsize .btn { float: none; margin: 0px auto; height: 60px; width: 100%; }

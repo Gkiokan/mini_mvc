@@ -1,0 +1,75 @@
+/*
+ * Projekt: GkiokanNET V5.1 Simple
+ * Author: Gkiokan Sali
+ * URL: www.gkiokan.net
+ */
+
+.me_name {
+    font-size: 44px;
+    line-height: 130px;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+    text-shadow: 3px 3px 3px #fff;
+    font-family: "Poiret One";
+}
+
+.fa { transition: all .3s; -webkit-transition: all .3s; -moz-transition: all .3s; }
+.me_social { margin-bottom:20px; }
+.me_social .fa {
+    margin-right:30px;
+    border:1px solid #222;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    width:45px; height:45px;
+    line-height:45px;
+    text-align:center;
+    color: #555;
+}
+.me_social .fa:hover {
+    background:#fff;
+    color:#090;
+    border:1px solid #333;
+    box-shadow: 0px 0px 5px #fff;
+}
+
+.me_social .fa:hover.fa-google { color: #fff; background: orangered; }
+.me_social .fa:hover.fa-facebook { color:#fff; background: dodgerblue; }
+.me_social .fa:hover.fa-skype { color: #fff; background: cyan; }
+.me_social .fa:hover.fa-youtube-play { color: crimson; background: #fff; }
+.me_social .fa:hover.fa-github { color: #000; background: salmon; }
+
+.me_skills_content {
+    width: 80%;
+    max-width: 620px;
+    margin: 0px auto;
+    display: block;
+}
+
+.me_skills_content .fa {
+    margin-bottom: 15px;
+    margin-right: 15px;
+    color: rgba(100,100,100,1);
+}
+
+.me_skills_content .fa:hover {
+    color:#fff;
+    text-shadow: 1px 1px 0px rgba(213, 12, 12, .7);
+}
+
+.me_skills_desc {
+    position: absolute;
+    right:10px;
+    bottom: 0px;
+    line-height:50px;
+    font-size:32px;
+    font-weight:bold;
+    font-family: 'Waiting for the Sunrise', Verdana;
+    color:rgba(255,50,50,.8);
+    border: 0px solid #fff;
+    display: none;
+    transform:rotate(-3deg);
+    -ms-transform:rotate(-3deg);
+    -moz-transform:rotate(-3deg);
+    -webkit-transform:rotate(-3deg);
+}

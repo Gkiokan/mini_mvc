@@ -1,0 +1,17 @@
+/*
+ * Project Gkiokan.NET
+ * Author: Gkiokan Sali
+ *
+ * 
+ */
+
+/* Main Page Animations */
+.me_header.animate { transition: all .5s .2s; }
+.me_header { position: relative; top:0px; }
+.me_header:hover { background: #afa; /* transform:rotateZ(5deg); */ color: #222; }
+
+.skills { position: relative; top: 0px; }
+.skills:hover { background: #faa; top:50px; transform:rotateZ(-5deg) scale(1.2); color:#b00; }
+
+.news { position: relative; top:0px; display:block;  }
+.news:hover { background: mediumturquoise; color: #225; }
